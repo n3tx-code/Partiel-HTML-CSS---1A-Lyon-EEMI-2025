@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Verdéa - Cultivez vos herbes aromatiques et légumes toute l'année. Potager d'intérieur autonome et intelligent.">
+    <title>Verdéa - Votre Potager d'Intérieur Autonome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header" id="home">
+        <div class="container header-container">
+            <a href="#" class="logo">Verdéa</a>
+            <nav class="nav">
+                <a href="#features" class="nav-link">Technologie</a>
+                <a href="#experience" class="nav-link">L'expérience</a>
+                <a href="#contact" class="btn btn-primary btn-sm">Précommander</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Le futur du potager arrive <span>bientôt</span> chez vous</h1>
+                    <p class="hero-subtitle">Soyez parmi les premiers à découvrir Verdéa. Le potager d'intérieur
+                        autonome qui va révolutionner votre alimentation.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">M'inscrire au lancement</a>
+                        <a href="#features" class="btn btn-secondary">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="img/hero.png" alt="Potager Verdéa dans une cuisine moderne" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technologie naturelle</h2>
+                    <p class="section-subtitle">Une intelligence artificielle au service de vos plantes.</p>
+                </div>
+                <div class="grid features-grid">
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <img src="img/icons/hydroponic.svg" alt="Icône Hydroponie" width="24" height="24">
+                        </div>
+                        <h3>Hydroponie active</h3>
+                        <p>Système d'irrigation automatique silencieux. Vos plantes reçoivent la quantité exacte d'eau
+                            et de nutriments.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <img src="img/icons/led-light.svg" alt="Icône Lumière LED" width="24" height="24">
+                        </div>
+                        <h3>Lumière solaire LED</h3>
+                        <p>Spectre lumineux optimisé reproduisant le cycle du soleil pour une croissance 3x plus rapide,
+                            été comme hiver.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <img src="img/icons/organic.svg" alt="Icône Bio" width="24" height="24">
+                        </div>
+                        <h3>100% bio et sain</h3>
+                        <p>Aucun pesticide, aucun OGM. Juste des graines biologiques et des nutriments naturels pour une
+                            santé de fer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">L'expérience Verdéa</h2>
+                    <p class="section-subtitle">Du jardin à l'assiette en quelques secondes.</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item large">
+                        <img src="img/lifestyle.png" alt="Personne cuisinant avec des herbes fraîches">
+                        <div class="overlay">
+                            <h3>Plaisir quotidien</h3>
+                            <p>Retrouvez le goût authentique des aliments.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/closeup.png" alt="Gros plan sur la fraîcheur des herbes">
+                        <div class="overlay">
+                            <h3>Fraîcheur absolue</h3>
+                            <p>Récoltez juste avant de servir.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Lancement imminent 🚀</h2>
+                    <p>Nous finalisons les derniers détails. Laissez-nous vos coordonnées pour être informé en priorité
+                        de l'ouverture des ventes et bénéficier d'une offre exclusive de lancement.</p>
+                </div>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Votre nom</label>
+                        <input type="text" id="name" name="name" required placeholder="Jean Dupont">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Votre email</label>
+                        <input type="email" id="email" name="email" required placeholder="jean@exemple.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="model">Modèle intéressé</label>
+                        <select id="model" name="model" required>
+                            <option value="" disabled selected>Choisissez votre potager...</option>
+                            <option value="nano">Verdéa Nano (3 plants)</option>
+                            <option value="home">Verdéa Home (9 plants)</option>
+                            <option value="wall">Verdéa Wall (30 plants)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Me tenir informé</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
